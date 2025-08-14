@@ -1,0 +1,12 @@
+source /etc/profile.d/nf_csh_modules
+module purge
+
+module use ~access/modules
+module load intel-cc/17.0.1.132
+module load intel-fc/17.0.1.132
+module load openmpi/1.10.2
+module load oasis3-mct-local/ompi.1.10.2
+module load netcdf
+module load libpng
+module load openjpeg
+module load zlib
